@@ -4,7 +4,7 @@
       "dctabuyz <dctabuyz@yandex.ru>, Andrei Lukovenko <aluck@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.130870",
+   "generated_by" : "ExtUtils::MakeMaker version 6.8, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "unknown"
    ],
@@ -39,5 +39,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.02"
+   "version" : "0.03"
 }
