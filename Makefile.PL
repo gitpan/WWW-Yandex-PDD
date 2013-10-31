@@ -7,7 +7,9 @@ WriteMakefile(
     NAME      => 'WWW::Yandex::PDD',
     PREREQ_PM => {
         'LWP::UserAgent' => 0, # any version will do
-        'XML::LibXML'    => 0
+	'LWP::ConnCache' => 0,
+        'XML::LibXML'    => 0,
+	'URI::Escape'	 => 0,
     },
     (   $] >= 5.005
         ? ( ABSTRACT_FROM =>

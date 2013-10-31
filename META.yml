@@ -18,7 +18,9 @@ no_index:
     - t
     - inc
 requires:
+  LWP::ConnCache: 0
   LWP::UserAgent: 0
+  URI::Escape: 0
   XML::LibXML: 0
   perl: 5.008
-version: 0.03
+version: 0.04
